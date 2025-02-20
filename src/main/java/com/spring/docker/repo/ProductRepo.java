@@ -1,0 +1,11 @@
+package com.spring.docker.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.spring.docker.entity.Product;
+
+@Repository
+public interface ProductRepo extends JpaRepository<Product, String> {
+
+}
