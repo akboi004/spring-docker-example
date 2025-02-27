@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+data:
+  SPRING_DATASOURCE_URL: "jdbc:mysql://mysql-service:3306/practice_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true"
+  MYSQL_DATABASE: "practice_db"
